@@ -1,0 +1,54 @@
+body {
+  background-color: white;
+}
+
+header {
+  padding: 20px 40px;
+  background-color: white;
+  border-bottom: 2px solid #ebebeb;
+}
+header > h1 {
+  font-size: 24px;
+}
+.card {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  height: 500px;
+}
+
+button {
+  border: none;
+  background-color: white;
+  font-size: 50px;
+}
+.counter {
+  font-size: 50px;
+  background-color: #5c49d3;
+  color: white;
+  border-radius: 10px;
+  margin: 22px 22px;
+  padding: 16px 40px;
+}
+.reset {
+  display: flex;
+  flex-direction: column;
+  margin-top: 90px;
+}
+.button-reset {
+  font-size: 18px;
+  background-color: #5c49d3;
+  color: white;
+  border-radius: 10px;
+  margin: 22px 22px;
+  padding: 16px;
+}
+
+footer {
+  margin-top: 70px;
+  display: flex;
+  justify-content: center;
+}
+span {
+  font-weight: bold;
+}
